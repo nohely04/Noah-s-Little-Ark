@@ -1,0 +1,67 @@
+/*COLOR DE PAGINA*/
+body{
+    background-color: #FEFAE0;
+}
+
+/*ENCABEZADO*/
+header{
+    background-color: #5dc1b9;
+    text-align: center;
+    padding: 10px;
+    size-adjust: 20px;
+    font-family: League;
+    color: #239089;
+    position: relative;
+    margin-bottom: 0;
+}
+
+/*ENCABEZADO ICONO*/
+header figure {
+    position: absolute;
+    left: 10px;
+    top: -15px;
+}
+
+/*ENCABEZADO NOMBRE*/
+header h1 {
+    text-align: center;
+    align-items: center;
+}
+
+/*MENÚ*/
+#menú { 
+    background-color: #5dc1b9 !important;
+    margin-top: 0;
+    padding-top: 0%;
+}
+
+.nav-item a {
+    color: white
+}
+
+.nav-item a:hover {
+    color: #239089
+}
+
+/*FOOTER*/
+footer {
+    background-color: #5dc1b9;
+}
+
+.iconos-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px;
+    background-color: #5dc1b9;
+}
+
+.iconos-redes a {
+    font-size: 15px; 
+    color: white ; 
+    text-decoration: none; 
+}
+.iconos-redes a:hover {
+    color: white; 
+}
