@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="./css/index.css" rel="stylesheet" />
+    <link href="./css/contacts.css" rel="stylesheet" />
+    <link href="./css/ourservice.css" rel="stylesheet" />
    
 <body>
     <header class="encabezado">
@@ -53,29 +55,81 @@
 
     <main>
         <section id="AboutUs" style="text-align: center;">
-            <h3>About Us</h3>
+            <h5>About Us</h5>
         </section>
 
         <section id="Activities" style="text-align: center;">
-            <h3>Activities</h3>
+            <h5>Activities</h5>
         </section>
 
         <section id="OurService" style="text-align: center;">
-            <h3>Our Services</h3>
+            <h5>Our Services</h5>
+            <div class="container w-75 my-5">
+                <div class="row">
+                  
+                  <!-- Sección de imágenes (carousel) -->
+                  <section class="col-lg-6 col-md-12 mb-4">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/indoor-1.jpeg" class="d-block w-100 img-fluid" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/indoor-2.jpeg" class="d-block w-100 img-fluid" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/indoor-3.jpeg" class="d-block w-100 img-fluid" alt="Imagen 3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                      </button>
+                    </div>
+                  </section>
+              
+                  <!-- Sección de texto -->
+                  <section class="col-lg-6 col-md-12">
+                    <div id="PlayAreas" class="card p-3 h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">Indoor-Outdoor Play Areas</h5>
+                      </div>
+                    </div>
+                  </section>
+              
+                </div>
+              </div>
+              
+              
         </section>
 
         <section id="Contacts" class="text-center">
-            <h5> Get in touch</i></h5>
-                <p><a href="tel:+15168844159">Phone: +1 (516) 884 4159</a></p>
-                <p>Schedule:</p>
-                <p>Monday - Friday (6 a.m - 6 p.m)</p>
-                <p>
-                    Location: 
-                    <a href="https://www.google.com/maps?q=29+Butternut+Ln,+Levittown,+NY+11756" target="_blank" rel="noopener">
-                      29 Butternut Ln, Levittown, NY 11756
-                    </a>
-                  </p>
+            <h5>Contacts</h5>
+        
+            <div class="d-flex justify-content-center">
+                <div id="info" class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <p>Phone: <a href="tel:+15168844159">+1 (516) 884 4159</a></p>
+                        <p>Schedule:</p>
+                        <p>Monday - Friday (6:00 a.m - 6:00 p.m)</p>
+                        <p>
+                            Location: 
+                            <a href="https://www.google.com/maps?q=29+Butternut+Ln,+Levittown,+NY+11756" target="_blank" rel="noopener">
+                              29 Butternut Ln, Levittown, NY 11756
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
+        
     </main>
 
     <footer>

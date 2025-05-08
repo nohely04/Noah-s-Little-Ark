@@ -1,7 +1,7 @@
 /*FUENTE*/
 @font-face {
     font-family: 'Comic';
-    src: url('../fonts/ComicRelief-Regular.ttf') format('truetype');
+    src: url('../fonts/Genty-Sans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,11 +14,11 @@
 }
 
 /*FIJAR TIPO DE LETRA*/
-h1{
+h1, h5{
     font-family: 'Comic';
 }
 
-h2,h3,h4,h5,ul,li,a,p{
+h2,h3,h4,ul,li,a,p{
     font-family: 'Montserrat';
 }
 
@@ -67,6 +67,7 @@ body{
     background-color: #5dc1b9 !important;
     margin-top: 0;
     padding-top: 0%;
+    margin-bottom: 30px;
 }
 
 .nav-item a {
@@ -100,11 +101,3 @@ footer {
     color: white; 
 }
 
-/*Contacto*/
-#Contacts {
-    background-image: url('img/estrellas-fondo.png');
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 150px;
-  }
-  
