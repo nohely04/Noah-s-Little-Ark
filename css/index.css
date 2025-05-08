@@ -1,32 +1,66 @@
+/*FUENTE*/
+@font-face {
+    font-family: 'Comic';
+    src: url('../fonts/ComicRelief-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*FIJAR TIPO DE LETRA*/
+h1{
+    font-family: 'Comic';
+}
+
+h2,h3,h4,h5,ul,li,a,p{
+    font-family: 'Montserrat';
+}
+
 /*COLOR DE PAGINA*/
 body{
     background-color: #f5f3ef;
 }
 
-/*ENCABEZADO*/
-header{
+/* ENCABEZADO GENERAL */
+.encabezado {
     background-color: #5dc1b9;
-    text-align: center;
-    padding: 10px;
-    size-adjust: 20px;
-    font-family: League;
-    color: #239089;
-    position: relative;
-    margin-bottom: 0;
-}
-
-/*ENCABEZADO ICONO*/
-header figure {
-    position: absolute;
-    left: 10px;
-    top: -15px;
-}
-
-/*ENCABEZADO NOMBRE*/
-header h1 {
-    text-align: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: League, sans-serif;
+    color: #239089;
 }
+
+/* LOGO */
+.encabezado figure {
+    margin: 0 15px 0 0;
+}
+
+/* TITULO */
+.titulo h1, .titulo h4 {
+    margin: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 576px) {
+    .encabezado {
+        flex-direction: column;
+    }
+
+    .encabezado figure {
+        margin-bottom: 10px;
+    }
+}
+
 
 /*MENÚ*/
 #menú { 
@@ -66,3 +100,11 @@ footer {
     color: white; 
 }
 
+/*Contacto*/
+#Contacts {
+    background-image: url('img/estrellas-fondo.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 150px;
+  }
+  
