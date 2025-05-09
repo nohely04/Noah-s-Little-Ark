@@ -8,6 +8,9 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Incluir FontAwesome en tu proyecto -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     <link href="./css/index.css" rel="stylesheet" />
     <link href="./css/contacts.css" rel="stylesheet" />
     <link href="./css/ourservice.css" rel="stylesheet" />
@@ -23,6 +26,7 @@
         </div>
       </header>
       
+
 
     <!-- Menú -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="menú">
@@ -55,25 +59,110 @@
 
     <main>
         <section id="AboutUs" style="text-align: center;">
-            <h5>About Us</h5>
+            <h2>Welcome to</h2>
+            <h5>Noah´s Little Ark Daycare Inc.</h5>
+            <p>Acá va la información del Daycare: misión, info de wen, las edades y que están certificados</p>
         </section>
 
         <section id="Activities" style="text-align: center;">
             <h5>Activities</h5>
+            <p>Acá va la parte de las actividades tipo baile, festividades y demás</p>
         </section>
 
         <section id="OurService" style="text-align: center;">
             <h5>Our Services</h5>
-            <div class="container w-75 my-5">
+            <!--CARD DE IDIOMA-->
+            <div class="container w-50 my-5">
+              <div class="row">
+                <section  id="idiom" class="col-lg-6 col-md-12 mb-4">
+                    <img src="img/indoor-1.jpeg" class="d-block w-100 img-fluid" alt="Imagen 1">    
+                </section>
+            
+                <!-- Sección de texto -->
+                <section class="col-lg-6 col-md-12">
+                  <div id="PlayAreas" class="card p-3 h-100">
+                    <div class="card-body">
+                    <i class="fa-solid fa-a" style="font-size: 2rem; color: #57ff92; font-size: 22px;"></i>
+                      <h5 class="card-title">Bilingual ENG/SPA</h5>
+                      <p>Hablar sobre que es un daycare bilingüe</p>
+                    </div>
+                  </div>
+                </section>
+            
+              </div>
+            </div>
+
+              <!--CARD DE AGE AC-->
+              <div class="container w-50 my-5">
+                <div class="row">
+                  <section  id="idiom" class="col-lg-6 col-md-12 mb-4">
+                      <img src="img/indoor-1.jpeg" class="d-block w-100 img-fluid" alt="Imagen 1">    
+                  </section>
+              
+                  <!-- Sección de texto -->
+                  <section class="col-lg-6 col-md-12">
+                    <div id="PlayAreas" class="card p-3 h-100">
+                      <div class="card-body">
+                        <i class="fa-solid fa-child" style="font-size: 2rem; color: #B197FC;"></i>
+                        <h5 class="card-title">Age Appropiate Activities</h5>
+                        <p>Hablar sobre las actividades por edad</p>
+                      </div>
+                    </div>
+                  </section>
+              
+                </div>
+              </div>
+
+            <!--CARD DE SNACKS-->
+            <div class="container w-50 my-5">
+              <div class="row">
+                
+                <!-- Sección de imágenes (primer carrusel) -->
+                <section class="col-lg-6 col-md-12 mb-4">
+                  <div id="carouselExampleIndicators1" class="carousel slide carrusel-redondo">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/indoor-1.jpeg" class="d-block w-100 img-fluid" alt="Imagen 1">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+                </section>
+            
+                <!-- Sección de texto -->
+                <section class="col-lg-6 col-md-12">
+                  <div id="PlayAreas" class="card p-3 h-100">
+                    <div class="card-body">
+                      <i class="fa-solid fa-apple-whole" style="color: #f50a0a; font-size: 22px;"></i>
+                      <h5 class="card-title">Breakfast, Lunch and Snacks</h5>
+                      <p>Hablar sobre los snacks y almuerzos que ofrecen tipo lo saludable</p>
+                    </div>
+                  </div>
+                </section>
+            
+              </div>
+            </div>
+            <!--CARD DE ÁREAS-->
+            <div class="container w-50 my-5">
                 <div class="row">
                   
-                  <!-- Sección de imágenes (carousel) -->
+                  <!-- Sección de imágenes (segundo carrusel) -->
                   <section class="col-lg-6 col-md-12 mb-4">
-                    <div id="carouselExampleIndicators" class="carousel slide">
+                    <div id="carouselExampleIndicators2" class="carousel slide carrusel-redondo">
                       <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
                       </div>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -86,10 +175,10 @@
                           <img src="img/indoor-3.jpeg" class="d-block w-100 img-fluid" alt="Imagen 3">
                         </div>
                       </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                       </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                       </button>
                     </div>
@@ -99,14 +188,14 @@
                   <section class="col-lg-6 col-md-12">
                     <div id="PlayAreas" class="card p-3 h-100">
                       <div class="card-body">
+                        <i class="fa-solid fa-rainbow" style="color: #FFD43B; font-size: 22px;"></i>
                         <h5 class="card-title">Indoor-Outdoor Play Areas</h5>
+                        <p>Hablar sobre las áreas que ofrecen</p>
                       </div>
                     </div>
                   </section>
-              
-                </div>
-              </div>
-              
+               </div>
+            </div>
               
         </section>
 
@@ -144,6 +233,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
- 
 </body>
 </html>

@@ -6,3 +6,10 @@
     border-radius: 37px;
     margin-bottom: 50px;
 }
+.carrusel-redondo {
+    border-radius: 37px;
+    overflow: hidden;
+  }
+  #idiom img{
+    border-radius: 37px;
+  }
